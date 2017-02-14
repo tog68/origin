@@ -1,0 +1,15 @@
+PENDINGS PSSO-IDP (FEB-17):
+
+- Migración BBDD a SQL Server Express (estimación: 9,7K)
+- Migración PSSO a CDS inline >> (ofertado) IDP: Nuevo algoritmo identificación de red
+- (ofertado) Mejoras estadísticas PSSO
+- Corrección vulnerabilidades:
+	- (ofertado) Cabecera x-frame-options
+	- (ofertado) Inclusión de captcha en todos losformularios de login
+	- Comprobación de parámetros en formularios de login
+
+- Peticiones HTTPS por back-end IDP (comunicador?)
+- (ofertado) Pending Paso prod:
+	- Corrección SSL2, SSL3, RC4, OPTIONS
+- (ofertado) Limitar número de sesiones por usuario
+- Estimación integración nuevo SP en IDP (dos portales, nuevo tipo de autenticación)
